@@ -1,0 +1,14 @@
+# Unityのキャッシュ系フォルダ
+Library/
+Temp/
+Obj/
+Build/
+
+# Visual Studioの設定
+.vs/
+
+# Macの設定ファイル
+.DS_Store
+
+# Unityのローカル設定
+.vs/

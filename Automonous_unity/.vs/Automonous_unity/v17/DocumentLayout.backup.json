@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sasak\\Downloads\\Autonomous\\Automonous_unity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E37939E-AC29-0B1E-B9DC-A5BB410CC349}|Assembly-CSharp.csproj|C:\\Users\\sasak\\Downloads\\Autonomous\\Automonous_unity\\assets\\scripts\\captureandsend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E37939E-AC29-0B1E-B9DC-A5BB410CC349}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\captureandsend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E37939E-AC29-0B1E-B9DC-A5BB410CC349}|Assembly-CSharp.csproj|c:\\users\\sasak\\downloads\\autonomous\\automonous_unity\\assets\\scripts\\carcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E37939E-AC29-0B1E-B9DC-A5BB410CC349}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E37939E-AC29-0B1E-B9DC-A5BB410CC349}|Assembly-CSharp.csproj|c:\\users\\sasak\\downloads\\autonomous\\automonous_unity\\assets\\scripts\\solveproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E37939E-AC29-0B1E-B9DC-A5BB410CC349}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\solveproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E37939E-AC29-0B1E-B9DC-A5BB410CC349}|Assembly-CSharp.csproj|C:\\Users\\sasak\\Downloads\\Autonomous\\Automonous_unity\\assets\\scripts\\jumponspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E37939E-AC29-0B1E-B9DC-A5BB410CC349}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jumponspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SolveProblem.cs",
+              "DocumentMoniker": "C:\\Users\\sasak\\Downloads\\Autonomous\\Automonous_unity\\Assets\\Scripts\\SolveProblem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SolveProblem.cs",
+              "ToolTip": "C:\\Users\\sasak\\Downloads\\Autonomous\\Automonous_unity\\Assets\\Scripts\\SolveProblem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SolveProblem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T09:22:15.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarControl.cs",
+              "DocumentMoniker": "C:\\Users\\sasak\\Downloads\\Autonomous\\Automonous_unity\\Assets\\Scripts\\CarControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CarControl.cs",
+              "ToolTip": "C:\\Users\\sasak\\Downloads\\Autonomous\\Automonous_unity\\Assets\\Scripts\\CarControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CarControl.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwDAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:59:20.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JumpOnSpace.cs",
+              "DocumentMoniker": "C:\\Users\\sasak\\Downloads\\Autonomous\\Automonous_unity\\Assets\\Scripts\\JumpOnSpace.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\JumpOnSpace.cs",
+              "ToolTip": "C:\\Users\\sasak\\Downloads\\Autonomous\\Automonous_unity\\Assets\\Scripts\\JumpOnSpace.cs",
+              "RelativeToolTip": "Assets\\Scripts\\JumpOnSpace.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T16:24:35.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CaptureAndSend.cs",
+              "DocumentMoniker": "C:\\Users\\sasak\\Downloads\\Autonomous\\Automonous_unity\\Assets\\Scripts\\CaptureAndSend.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CaptureAndSend.cs",
+              "ToolTip": "C:\\Users\\sasak\\Downloads\\Autonomous\\Automonous_unity\\Assets\\Scripts\\CaptureAndSend.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CaptureAndSend.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAUwDsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:11:19.432Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
