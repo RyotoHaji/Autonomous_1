@@ -6,21 +6,40 @@ using UnityEngine.Networking; // UnityWebRequestを使うなら
 
 public class CaptureAndSend : MonoBehaviour
 {
+    public static CaptureAndSend Instance{get;  private set;}
+
     public Camera cam; // 追従カメラ
     public string serverURL = "http://127.0.0.1:5000/upload"; // PythonサーバのURL
 
     float timer = 0f;
-    public float sendInterval = 10f; // 3秒ごとに送る
+    public float sendInterval = 1;
+    public  int centerX;
+    public  int redlineX;
+    public  int whitelineX;
+    bool isProcessing = false;
 
+    void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject); // 必要なら
+        }
+        else
+        {
+            Destroy(gameObject); // 既に存在していたら破棄
+        }
+    }
     void Update()
     {
-
-            CaptureAndSendImage();
-        
+        if (!isProcessing)
+            CaptureAndSendImage();    
     }
+    
 
     public void CaptureAndSendImage()
     {
+        isProcessing = true;
         //画像を撮影
         RenderTexture rt = cam.targetTexture;
         Texture2D tex = new Texture2D(rt.width, rt.height, TextureFormat.RGB24, false);
@@ -46,14 +65,34 @@ public class CaptureAndSend : MonoBehaviour
 
             yield return www.SendWebRequest();
 
+
+
             if (www.result == UnityWebRequest.Result.Success)
             {
-                Debug.Log("受信成功：" + www.downloadHandler.text);
+                string jsonResponse = www.downloadHandler.text;
+                ResponseData responseData = JsonUtility.FromJson<ResponseData>(jsonResponse);
+
+                // 2. 変数に格納
+                centerX = responseData.center;
+                redlineX = responseData.right;
+                whitelineX = responseData.left;
+                //Debug.Log("受信成功：" + www.downloadHandler.text);
             }
             else
             {
                 Debug.LogWarning("ポスト送信失敗: " + www.error);
             }
         }
+
+        isProcessing = false;
+    }
+
+    [System.Serializable]
+    public class ResponseData
+    {
+        public int left;
+        public int center;
+        public int right;
+        public int width;
     }
 }
